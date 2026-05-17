@@ -64,6 +64,18 @@ const projects: IProject[] = [
 ]
 
 // =====================
+// TYPES
+// =====================
+interface IProject {
+  title: string
+  image: string
+  deskripsi: string
+  type: 'web' | 'api' | 'mobile' | 'android' | 'ios' | 'flutter'
+  demo: string
+  repo: string
+}
+
+// =====================
 // DATA QUIZ
 // =====================
 const questions = [
