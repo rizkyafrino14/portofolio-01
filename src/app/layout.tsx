@@ -6,10 +6,8 @@ import { ThemeProvider } from '@/provider/themesProvider'
 import Tawk from '@/components/common/Tawk'
 import GithubStar from '@/components/common/GithubStar'
 
-import type { Metadata } from "next";
-
 export const metadata: Metadata = {
-  // Basic
+  // ... sisanya sama // Basic
   title: {
     default: "Rizky Mustafa Afrino | Portofolio",
     template: "%s — Rizky Mustafa Afrino",
